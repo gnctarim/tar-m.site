@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarım Makineleri</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="bg-green-700 text-white py-12 shadow-lg">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold mb-4">Tarımda Gücünüz Yanınızda</h1>
+      <p class="text-lg mb-6">Çapa Motoru, Tırpan, Testere, Süt Sağma ve daha fazlası</p>
+      <a href="#urunler" class="bg-white text-green-700 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-200 transition">Ürünlerimizi İncele</a>
+    </div>
+  </header>
+
+  <!-- Ürünler Section -->
+  <section id="urunler" class="py-16 container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">Ürünlerimiz</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Ürün Kartı -->
+      <div class="bg-white rounded-2xl shadow p-6 text-center">
+        <img src="https://via.placeholder.com/200" alt="Çapa Motoru" class="mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Çapa Motoru</h3>
+        <p class="mb-4">Tarla işlerinizde güçlü ve dayanıklı çözüm.</p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Detaylı İncele</button>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6 text-center">
+        <img src="https://via.placeholder.com/200" alt="Motorlu Tırpan" class="mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Motorlu Tırpan</h3>
+        <p class="mb-4">Bahçeniz için hızlı ve etkili ot biçme çözümü.</p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Detaylı İncele</button>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6 text-center">
+        <img src="https://via.placeholder.com/200" alt="Motorlu Testere" class="mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Motorlu Testere</h3>
+        <p class="mb-4">Odun kesme ve ormancılıkta profesyonel destek.</p>
+        <button class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Detaylı İncele</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- İletişim -->
+  <section id="iletisim" class="bg-gray-200 py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Bizimle İletişime Geçin</h2>
+      <p class="mb-6">Uygun fiyatlı ve kaliteli tarım makineleri için hemen arayın.</p>
+      <a href="tel:+905551112233" class="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition">Hemen Ara</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-800 text-white py-6 text-center">
+    <p>&copy; 2025 Tarım Makineleri. Tüm hakları saklıdır.</p>
+  </footer>
+
+</body>
+</html>
